@@ -1,0 +1,6 @@
+{
+  "name": "Proactive Drivers United Legal Help",
+  "description": "Legal Protection for Your Rights, CDL & Livelihood. Driver rights information, CDL protection support resources, bilingual English/Spanish assistance, and community membership.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
