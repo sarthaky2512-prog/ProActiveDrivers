@@ -1,3 +1,8 @@
+import heroDriverImg from '../assets/images/hero_truck_driver_1794644613194.jpg';
+import peopleFirstImg from '../assets/images/people_first_community_1794644612590.jpg';
+import cdlSupportImg from '../assets/images/cdl_protection_support_1794644613775.jpg';
+import spanishSupportImg from '../assets/images/spanish_driver_support_1794644613964.jpg';
+
 export const OFFICIAL_CONTACT = {
   companyName: 'Proactive Drivers United Legal Help',
   shortName: 'Proactive Drivers',
@@ -13,10 +18,10 @@ export const OFFICIAL_CONTACT = {
 } as const;
 
 export const SITE_IMAGES = {
-  heroDriver: '/src/assets/images/hero_truck_driver_1794644613194.jpg',
-  peopleFirst: '/src/assets/images/people_first_community_1794644612590.jpg',
-  cdlSupport: '/src/assets/images/cdl_protection_support_1794644613775.jpg',
-  spanishSupport: '/src/assets/images/spanish_driver_support_1794644613964.jpg',
+  heroDriver: heroDriverImg,
+  peopleFirst: peopleFirstImg,
+  cdlSupport: cdlSupportImg,
+  spanishSupport: spanishSupportImg,
 } as const;
 
 export const US_STATES: Array<{ code: string; name: string }> = [

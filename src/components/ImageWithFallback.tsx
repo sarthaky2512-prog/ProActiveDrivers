@@ -6,6 +6,7 @@ interface ImageWithFallbackProps {
   alt: string;
   className?: string;
   fallbackTitle?: string;
+  loading?: 'eager' | 'lazy';
 }
 
 export function ImageWithFallback({
@@ -13,6 +14,7 @@ export function ImageWithFallback({
   alt,
   className = '',
   fallbackTitle,
+  loading = 'eager',
 }: ImageWithFallbackProps) {
   const [failed, setFailed] = useState(false);
 
@@ -36,7 +38,7 @@ export function ImageWithFallback({
       src={src}
       alt={alt}
       referrerPolicy="no-referrer"
-      loading="lazy"
+      loading={loading}
       onError={() => setFailed(true)}
       className={className}
     />
